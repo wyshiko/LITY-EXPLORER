@@ -1,2 +1,2 @@
 # LITY EXPLORER
- partice python
+Python practice
