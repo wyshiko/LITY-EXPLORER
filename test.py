@@ -56,10 +56,8 @@ Button(frame_logger, text="Loggin", command=logger).pack()
 # Frame 1 code    ################################
 Label(frame_1, text = 'WELCOME ' + str(id), 
       font =('Verdana', 15)).pack(side = TOP, pady = 10)
-
 # button
-
-frame_1_btn = tk.Button(frame_1, text='BACK', command=lambda:show_frame(frame_logger))
+frame_1_btn = tk.Button(frame_1, text='Enter', command=lambda:show_frame(frame_logger))
 frame_1_btn.pack()
 
 show_frame(frame_logger)
